@@ -1,0 +1,28 @@
+.tree-transfer .ant-transfer-list-body {
+  height: 100%;
+  overflow-y: auto;
+}
+.tree-transfer .ant-transfer-list-body .ant-transfer-list-body-customize-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.tree-transfer .ant-transfer-list-body .ant-transfer-list-body-customize-wrapper .no-data-board {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.tree-transfer.hidden .ant-transfer-list-header-selected {
+  display: none;
+}
+.tree-transfer.hidden .ant-transfer-list-header-title {
+  margin-left: 2px;
+}
+.tree-transfer .ant-tree-list {
+  margin: 5px 0;
+}
+.tree-transfer .ant-input-group-wrapper {
+  box-sizing: border-box;
+  padding: 12px 24px;
+}

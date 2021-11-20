@@ -1,0 +1,38 @@
+.tree-transfer {
+  .ant-transfer-list-body {
+    height: 100%;
+    overflow-y: auto;
+
+    .ant-transfer-list-body-customize-wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+
+      .no-data-board {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  &.hidden {
+    .ant-transfer-list-header-selected {
+      display: none;
+    }
+
+    .ant-transfer-list-header-title {
+      margin-left: 2px;
+    }
+  }
+
+  .ant-tree-list {
+    margin: 5px 0;
+  }
+
+  .ant-input-group-wrapper {
+    box-sizing: border-box;
+    padding: 12px 24px;
+  }
+}

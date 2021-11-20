@@ -8,6 +8,17 @@ export default {
       antd: 'antd',
     },
   },
+  extraBabelPlugins: [
+    [
+      'babel-plugin-import',
+      {
+        libraryName: 'antd',
+        libraryDirectory: 'es',
+        style: true,
+      },
+    ],
+  ],
   extractCSS: true,
   lessInBabelMode: true,
+  runtimeHelpers: true,
 };
